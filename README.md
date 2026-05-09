@@ -32,3 +32,22 @@ Tools Used:
 
 - Git & GitHub
 
+
+# Technical Skills
+
+- Cisco IOS CLI
+- Network Troubleshooting
+- OSPF Routing
+- VLAN Configuration
+- ACL Management
+- IPv4/IPv6 Subnetting
+- NAT/PAT
+- DHCP/DNS
+- SSH Configuration
+- Packet Analysis
+
+
+
+
+
+
