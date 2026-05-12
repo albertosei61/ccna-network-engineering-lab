@@ -1,22 +1,18 @@
-Network Overview
-
-Built a small enterprise-style topology with two buildings connected over a 3 km WAN link using routers.
+LAN/WAN lab and notes
+-Built a small enterprise-style topology with two buildings connected over a 3 km WAN link using routers. See topology https://github.com/albertosei61/ccna-network-engineering-lab/blob/main/02-networking-interfaces-Cables/DualBuilding-LAN-WAN-topology.png
 
 LAN Setup
-
-Configured two separate LANs (one per building), each containing:
-
+- Configured two separate LANs (one per building), each containing:
 PCs
 Switches
 Router interfaces acting as default gateways
 WAN Connection
-
 Connected both LANs using a router-to-router WAN link to enable inter-building communication.
 
 Physical Media
+- Used a multi-node fiber optic cable for the WAN link. Single-mode fiber was not used due to cost considerations and because the 3 km distance was acceptable for the chosen lab setup. Interfaces and Cables
 
-Used a multi-node fiber optic cable for the WAN link. Single-mode fiber was not used due to cost considerations and because the 3 km distance was acceptable for the chosen lab setup. Interfaces and Cables
-
+Network Overview
 - Understanding ethernet protocols that allow transfer of data
 - Speed is measured in bits per second and 8 bits == 1 byte
 - Bits and Bytes
