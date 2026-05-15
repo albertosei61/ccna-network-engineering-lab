@@ -1,4 +1,5 @@
 *.pkt
 *.apkg
+*/apkg.url
 *.pdf
 *.md.un~
