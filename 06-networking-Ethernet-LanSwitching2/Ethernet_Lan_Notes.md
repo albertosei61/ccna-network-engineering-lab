@@ -1,5 +1,5 @@
 Ethernet Frame
-Ethernet header = Preamble + SFD + Destination + Source + Type
+Ethernet header = 7 Preamble + 1 SFD + 6 Destination + 6 Source + 2 Type  ++ Packet or payload  Ethernet trailer = 4 FCS
 - The Preamble + SFD is usally not cosidered part of the Ethernet header
 - Therefore the size of the Ethernet header + trailer is 18 bytes (6 + 6 + 2 + 4)
 - The mininum size for an Ethernet frame ( Header + Payload [packet] + Trailer )_ is 64 bytes.
