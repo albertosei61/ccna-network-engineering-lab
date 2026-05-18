@@ -7,7 +7,7 @@ Ethernet header = 7 Preamble + 1 SFD + 6 Destination + 6 Source + 2 Type  ++ Pac
 - Therefore the mininum payload (packet) size is 46 bytes
 - If the payload is less than 46 bytes, padding bytes are added.
 
-ARP ( Address Resolution Protocol)
+ARP ( Address Resolution Protocol) type code: 0x0806
 - used to discover the layer 2 address MAC address of a known layer 3 address (ip address)
 - consists of two messages: 
     ARP Request from source device
